@@ -16,9 +16,9 @@ body {
 }
 
 .gif {
-    margin-left: 15%;
-    height: 70%;
-    width: 70%;
+    margin-left: 10%;
+    height: 80%;
+    width: 80%;
 }
 
 h2 {
@@ -38,7 +38,7 @@ h2 {
 
 button {
     position: absolute;
-    width: 200px;
+    width: 150px;
     height: inherit;
     color: white;
     font-size: 1.2em;
