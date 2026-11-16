@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="th">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>สุขสันต์วันเกิดย้อนหลัง</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,700&family=Prompt:wght@400;600&family=Mali:wght@500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<canvas id="confetti"></canvas>
+
+<main class="stage" id="stage">
+  <div class="envelope" id="envelope" role="button" tabindex="0" aria-label="เปิดการ์ด">
+    <div class="flap"></div>
+    <div class="seal">★</div>
+    <div class="to hand">ถึง <span class="to-name">บะหมี่</span></div>
+  </div>
+  <div class="hint hand">แตะเพื่อเปิดซอง ✉</div>
+
+  <section class="card" aria-live="polite">
+    <div class="calendar">
+      <div class="m">พ.ย.</div>
+      <div class="d">15</div>
+      <div class="sticky">อุ๊ย เลยมา 1 วัน!</div>
+    </div>
+
+    <h1>สุขสันต์วันเกิด<em>ย้อนหลัง</em>นะ</h1>
+    <div class="name" id="name" contenteditable="true" spellcheck="false">บะหมี่</div>
+
+    <p class="msg">
+      ขอโทษที่มาช้าไปหนึ่งวันนะ แต่ก็ไม่อยากให้วันเกิดผ่านไปเฉย ๆ
+      โดยไม่ได้อวยพรเลย 😊 ขอให้ปีนี้เป็นปีที่ดี สุขภาพแข็งแรง
+      มีเรื่องสนุก ๆ เยอะ ๆ และได้ทุกอย่างที่ตั้งใจไว้นะ 🎉
+    </p>
+    <p class="sig">— พี่ซ่อมคอม ;D</p>
+    <p class="ps">ป.ล. ต้นไม้จากปี 2022 ยังรอดอยู่ไหมเนี่ย 555 🌸</p>
+
+    <div class="cake" aria-label="เค้กวันเกิด แตะเทียนเพื่อเป่า">
+      <div class="plate"></div>
+      <div class="layer l1"></div>
+      <div class="layer l2"></div>
+      <div class="candles" id="candles"></div>
+    </div>
+    <div class="tip" id="tip"></div>
+    <button class="again" id="again" hidden>จุดเทียนใหม่</button>
+  </section>
+</main>
+
+<script src="script.js"></script>
+</body>
+</html>
